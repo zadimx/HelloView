@@ -13,4 +13,6 @@
 
 @property (strong, nonatomic) IBOutlet UITableView *eventsTableView;
 @property (strong, nonatomic) NSMutableArray* collectionWithEvents;
+
+
 @end

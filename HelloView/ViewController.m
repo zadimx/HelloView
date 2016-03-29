@@ -18,6 +18,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    
+    
     self.addEventButton.backgroundColor = [UIColor yellowColor];
     [self.addEventButton addTarget:self
                             action:@selector(addEventClicked:)
@@ -27,11 +29,16 @@
                                  action:@selector(updateParticipantsCount:)
                        forControlEvents:UIControlEventTouchUpInside];
     
+    
+
+    
 }
 
 
 - (Event*) creatEvent
 {
+    
+    
     Event* event = [[Event alloc] init];
     event.cityName  = [self.cityNameTextField text];
     event.date = self.dateDatePicker.date;

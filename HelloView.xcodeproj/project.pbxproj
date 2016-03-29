@@ -13,6 +13,7 @@
 		4E1AF5CD1C9AD1680093CF9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4E1AF5CC1C9AD1680093CF9A /* Assets.xcassets */; };
 		4E1AF5D01C9AD1680093CF9A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4E1AF5CE1C9AD1680093CF9A /* LaunchScreen.storyboard */; };
 		4E37B3111CA15AF6006FC4B9 /* Event.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E37B3101CA15AF6006FC4B9 /* Event.m */; };
+		4E5A5A0B1CA967C700A3625E /* EventCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 4E5A5A0A1CA967C700A3625E /* EventCell.m */; };
 		4EDD468E1CA402E900D76978 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4EDD468C1CA402E900D76978 /* Main.storyboard */; };
 		4EDD46971CA4089200D76978 /* TableTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4EDD46961CA4089200D76978 /* TableTableViewController.m */; };
 /* End PBXBuildFile section */
@@ -29,6 +30,8 @@
 		4E1AF5D11C9AD1680093CF9A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4E37B30F1CA15AEC006FC4B9 /* Event.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = Event.h; path = ../../Event/Events/Events/Event.h; sourceTree = "<group>"; };
 		4E37B3101CA15AF6006FC4B9 /* Event.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Event.m; path = ../../Event/Events/Events/Event.m; sourceTree = "<group>"; };
+		4E5A5A091CA967C700A3625E /* EventCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = EventCell.h; sourceTree = "<group>"; };
+		4E5A5A0A1CA967C700A3625E /* EventCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = EventCell.m; sourceTree = "<group>"; };
 		4EDD468D1CA402E900D76978 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4EDD46951CA4089200D76978 /* TableTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableTableViewController.h; sourceTree = "<group>"; };
 		4EDD46961CA4089200D76978 /* TableTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableTableViewController.m; sourceTree = "<group>"; };
@@ -77,6 +80,8 @@
 				4E1AF5CE1C9AD1680093CF9A /* LaunchScreen.storyboard */,
 				4E1AF5D11C9AD1680093CF9A /* Info.plist */,
 				4E1AF5C01C9AD1680093CF9A /* Supporting Files */,
+				4E5A5A091CA967C700A3625E /* EventCell.h */,
+				4E5A5A0A1CA967C700A3625E /* EventCell.m */,
 			);
 			path = HelloView;
 			sourceTree = "<group>";
@@ -163,6 +168,7 @@
 				4E1AF5C81C9AD1680093CF9A /* ViewController.m in Sources */,
 				4E1AF5C51C9AD1680093CF9A /* AppDelegate.m in Sources */,
 				4E1AF5C21C9AD1680093CF9A /* main.m in Sources */,
+				4E5A5A0B1CA967C700A3625E /* EventCell.m in Sources */,
 				4EDD46971CA4089200D76978 /* TableTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
